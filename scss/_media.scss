@@ -1,0 +1,301 @@
+/* ====================
+        1500px
+=======================*/
+@media (max-width: 1500px) {}
+
+/* ====================
+        1200px
+=======================*/
+@media (max-width: 1200px) {
+  .work-slider {
+    flex-direction: column;
+  }
+
+  .work-block__right {
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .work-block__right-item:first-child::before,
+  .work-block__right-item:nth-child(2)::before,
+  .work-block__right-item:nth-child(3)::before,
+  .work-block__right-item:nth-child(4)::after {
+    background: none;
+  }
+
+  .statistics-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .statistics-item {
+    width: 30%;
+  }
+
+  .statistics-item:first-child::before,
+  .statistics-item:nth-child(2)::before,
+  .statistics-item:nth-child(3)::before,
+  .statistics-item:nth-child(4)::before,
+  .statistics-item:last-child::after,
+  .statistics-item:first-child::after {
+    background: none;
+  }
+
+  .mortgage-items {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .mortgage-item,
+  .mortgage-item__big {
+    width: 70%;
+  }
+
+  .mortgage {
+    margin-bottom: 50px;
+  }
+
+  .calculator-item {
+    width: 80%;
+  }
+
+  .footer-items {
+    justify-content: space-around;
+  }
+
+  .footer-item {
+    text-align: center;
+  }
+
+
+}
+
+/* ====================
+        900px
+=======================*/
+@media (max-width: 900px) {
+  .header-top {
+    flex-direction: column;
+
+  }
+
+  .header-menu {
+    flex-direction: column;
+
+    &__burger {
+      display: flex;
+    }
+  }
+
+  .header-menu__list {
+    display: none;
+    flex-direction: column;
+
+    li {
+      padding-bottom: 10px;
+      display: none;
+    }
+  }
+
+  .offers-slider__special {
+    width: 200px;
+    font-size: 12px;
+    top: 80px;
+    right: 22px;
+  }
+
+  .offers-slider__btn {
+    bottom: 30px;
+    right: 60px;
+
+    .btn {
+      font-size: 14px;
+    }
+  }
+
+  .statistics-item {
+    width: 50%;
+  }
+
+  .mortgage-item {
+    padding: 20px;
+  }
+
+  .feedback-box__title {
+    font-size: 20px;
+  }
+
+  .mortgage-item__icon {
+    margin-left: 20px;
+  }
+
+  .calculator-callback__btn {
+    text-align: center;
+  }
+
+  .calculator-item__form-btn {
+    text-align: center;
+  }
+
+  .calculator-item {
+    width: 100%;
+  }
+}
+
+/* ====================
+        600px
+=======================*/
+@media (max-width: 600px) {
+
+  .slick-dots,
+  .offers-slider__special,
+  .offers-slider__btn {
+    display: none;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .offers-slider__banner {
+    padding: 0;
+  }
+
+  .slick-btn img {
+    padding: 0;
+    width: 10px;
+  }
+
+  .work {
+    padding: 0;
+  }
+
+  .work-block__right-item:nth-child(4):before {
+    background-color: transparent;
+  }
+
+  .work-block__right-icon {
+    display: none;
+  }
+
+  .work-slider__item {
+    padding: 0;
+  }
+
+  .statistics-item {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .statistics-items__btn {
+    .btn {
+      font-size: 14px;
+    }
+  }
+
+  .mortgage-item,
+  .mortgage-item__big {
+    width: 90%;
+  }
+
+  .feedback-box__form {
+    padding: 15px;
+  }
+
+  .feedback-box__form-email {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .feedback-box__form-tel {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .listDocs-item__top {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .listDocs-item__list li {
+    font-size: 14px;
+  }
+
+  .listDocs-item__descr {
+    padding: 20px;
+  }
+
+  .listDocs-item__descr-btn {
+    .btn {
+      font-size: 13px;
+    }
+  }
+
+  .calculator-item {
+    width: 100%;
+    padding: 50px 25px;
+  }
+
+  .calculator-callback__btn {
+    margin-right: 0;
+
+    .btn {
+      font-size: 13px;
+    }
+  }
+
+  .calculator {
+    background-size: cover;
+    height: auto;
+  }
+
+
+
+}
+
+/* ====================
+        400px
+=======================*/
+@media (max-width: 400px) {
+  .header-top__contact-city {
+    margin-right: 10px;
+  }
+
+  .statistics-items__btn {
+    .btn {
+      font-size: 11px;
+    }
+  }
+
+  .work-block__right-descr {
+    font-size: 18px;
+  }
+
+  .mortgage-item__top {
+    font-size: 16px;
+  }
+
+  .mortgage-item__descr {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .listDocs-item__top {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .listDocs-item__list li {
+    font-size: 12px;
+  }
+
+  .calculator-callback__title {
+    width: 100%;
+  }
+}
